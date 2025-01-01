@@ -38,7 +38,7 @@ const Faq = () => {
         {faqs.map((faq, index) => (
           <div
             key={index}
-            className="bg-white shadow-md rounded-lg mb-4 overflow-hidden"
+            className="bg-white shadow-md rounded-lg mb-4 overflow-hidden lg:mx-0 mx-4"
           >
             <button
               className="flex justify-between items-center w-full px-6 py-4 focus:outline-none"
